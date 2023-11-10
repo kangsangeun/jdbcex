@@ -323,7 +323,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699510007809</updated>
       <workItem from="1699510008813" duration="13714000" />
-      <workItem from="1699576757543" duration="23237000" />
+      <workItem from="1699576757543" duration="23561000" />
     </task>
     <task id="LOCAL-00001" summary="2023년 11월 19일 오후 4시 jdbc 연동 테스트, 간단한 화면 PRG 테스트, 글 쓰기, 글 수정, 글 삭제">
       <option name="closed" value="true" />
@@ -349,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699602431549</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2023년 11월 19일 오후 4시 jdbc 연동 테스트, 간단한 화면 PRG 테스트, 글 쓰기, 글 수정, 글 삭제">
+      <option name="closed" value="true" />
+      <created>1699602703154</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699602703154</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +389,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
