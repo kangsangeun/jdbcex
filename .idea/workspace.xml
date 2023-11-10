@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56da6f97-92e3-4e08-9c73-9f3d228d9b35" name="Changes" comment="2023년 11월 19일 오후 4시 jdbc 연동 테스트, 간단한 화면 PRG 테스트, 글 쓰기, 글 수정, 글 삭제">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="56da6f97-92e3-4e08-9c73-9f3d228d9b35" name="Changes" comment="2023년 11월 19일 오후 4시 jdbc 연동 테스트, 간단한 화면 PRG 테스트, 글 쓰기, 글 수정, 글 삭제" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +76,9 @@
     ]
   }
 }]]></component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\webApp\jdbcex\src\main\resources" />
@@ -322,7 +323,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699510007809</updated>
       <workItem from="1699510008813" duration="13714000" />
-      <workItem from="1699576757543" duration="22898000" />
+      <workItem from="1699576757543" duration="23237000" />
     </task>
     <task id="LOCAL-00001" summary="2023년 11월 19일 오후 4시 jdbc 연동 테스트, 간단한 화면 PRG 테스트, 글 쓰기, 글 수정, 글 삭제">
       <option name="closed" value="true" />
@@ -332,13 +333,44 @@
       <option name="project" value="LOCAL" />
       <updated>1699600657527</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2023년 11월 19일 오후 4시 jdbc 연동 테스트, 간단한 화면 PRG 테스트, 글 쓰기, 글 수정, 글 삭제">
+      <option name="closed" value="true" />
+      <created>1699602316326</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699602316326</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2023년 11월 19일 오후 4시 jdbc 연동 테스트, 간단한 화면 PRG 테스트, 글 쓰기, 글 수정, 글 삭제">
+      <option name="closed" value="true" />
+      <created>1699602431549</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699602431549</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -349,7 +381,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
