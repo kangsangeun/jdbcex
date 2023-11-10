@@ -4,42 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56da6f97-92e3-4e08-9c73-9f3d228d9b35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/jdbcex/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/jdbcex/controller/TodoListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/jdbcex/controller/TodoModifyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/jdbcex/controller/TodoReadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/jdbcex/controller/TodoRegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/jdbcex/controller/TodoRemoveController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/jdbcex/dao/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/jdbcex/dao/TodoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/jdbcex/domain/TodoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/jdbcex/dto/TodoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/jdbcex/service/TodoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/jdbcex/util/MapperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/read.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/zerock/dao/ConnectTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/zerock/dao/TodoDAOTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/zerock/service/TodoServiceTests.java" afterDir="false" />
+    <list default="true" id="56da6f97-92e3-4e08-9c73-9f3d228d9b35" name="Changes" comment="2023년 11월 19일 오후 4시 jdbc 연동 테스트, 간단한 화면 PRG 테스트, 글 쓰기, 글 수정, 글 삭제">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -356,8 +322,17 @@
       <option name="presentableId" value="Default" />
       <updated>1699510007809</updated>
       <workItem from="1699510008813" duration="13714000" />
-      <workItem from="1699576757543" duration="21203000" />
+      <workItem from="1699576757543" duration="22898000" />
     </task>
+    <task id="LOCAL-00001" summary="2023년 11월 19일 오후 4시 jdbc 연동 테스트, 간단한 화면 PRG 테스트, 글 쓰기, 글 수정, 글 삭제">
+      <option name="closed" value="true" />
+      <created>1699600657527</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699600657527</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,11 +343,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2023년 11월 19일 오후 4시 jdbc 연동 테스트, 간단한 화면 PRG 테스트, 글 쓰기, 글 수정, 글 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023년 11월 19일 오후 4시 jdbc 연동 테스트, 간단한 화면 PRG 테스트, 글 쓰기, 글 수정, 글 삭제" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
